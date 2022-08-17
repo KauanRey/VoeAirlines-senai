@@ -23,8 +23,7 @@ public class Aeronave
     public string Fabricante { get; set; }
     public string Modelo { get; set; }
     public string Codigo { get; set; }
-    public ICollection<Manutencao> Manutencoes { get; set; }
-
-
+    public ICollection<Manutencao> Manutencoes { get; set; }=null!;
+    public ICollection<Voo> Voo  { get; set; }
 
 }
