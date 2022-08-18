@@ -11,7 +11,7 @@ public class Piloto
     public int Id { get; set; }
     public string Nome { get; set; }
     public string Matricula { get; set; }
-    public ICollection<Voo> Voo { get; set; }
+    public ICollection<Voo> Voo { get; set; }=null!;
    
 
 }
