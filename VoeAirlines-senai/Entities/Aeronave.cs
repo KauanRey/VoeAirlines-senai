@@ -19,7 +19,7 @@ public class Aeronave
     //Métodos set -atribui
     //Métodos get -recupera
     //POCO-foco é o objeto
-    public int ID { get; set; }
+    public int Id { get; set; }
     public string Fabricante { get; set; }
     public string Modelo { get; set; }
     public string Codigo { get; set; }
