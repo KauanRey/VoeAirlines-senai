@@ -1,3 +1,7 @@
+using VoeAirlinesSenai.Services;
+using VoeAirlinesSenai.Contexts;
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,6 +10,12 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+//injeção de dependência da classe VoeAirlinesContext
+builder.Services.AddDbContext<VoeAirlinesContext>();
+//injeção de dependência da classe AeronaveService
+builder.Services.AddTransient<AeronaveService>();
+
+
 
 var app = builder.Build();
 
