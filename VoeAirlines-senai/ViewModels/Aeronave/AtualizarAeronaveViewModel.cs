@@ -1,5 +1,5 @@
 //COM ID
-namespace VoeAirlinesSenai.ViewModels;
+namespace VoeAirlinesSenai.ViewModels.Aeronave;
 public class AtualizarAeronaveViewModel
 {
     public AtualizarAeronaveViewModel(int id, string fabricante, string modelo, string codigo)

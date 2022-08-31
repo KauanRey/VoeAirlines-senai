@@ -1,4 +1,4 @@
-namespace VoeAirlinesSenai.ViewModels;
+namespace VoeAirlinesSenai.ViewModels.Aeronave;
 
 public class DetalhesAeronaveViewModel
 {

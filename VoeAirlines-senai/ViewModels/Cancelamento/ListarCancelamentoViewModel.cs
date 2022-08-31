@@ -1,9 +1,11 @@
-namespace VoeAirlinesSenai.Entities;
+namespace VoeAirlinesSenai.ViewModels.Cancelamento;
 
-public class Cancelamento
+public class ListarCancelamentoViewModel
 {
-    public Cancelamento(string motivo, DateTime dataHoraNotificacao, int vooId)
+    
+    public ListarCancelamentoViewModel(int id,string motivo, DateTime dataHoraNotificacao,int vooId)
     {
+        Id = id;
         Motivo = motivo;
         DataHoraNotificacao = dataHoraNotificacao;
         VooId = vooId;
@@ -13,5 +15,5 @@ public class Cancelamento
     public string Motivo { get; set; }
     public DateTime  DataHoraNotificacao { get; set; }
     public int VooId { get; set; }
-    public Voo Voo { get; set; } = null!;
+    
 }

@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using VoeAirlinesSenai.Services;
-using VoeAirlinesSenai.ViewModels;
+using VoeAirlinesSenai.ViewModels.Aeronave;
 
 //A Controller é uma classe, porém, que permite trabalhar especificamente
 
@@ -9,7 +9,7 @@ using VoeAirlinesSenai.ViewModels;
 //URL - Endereço - Caminho 
 //Rota
 //Rota é trecho - Sub Caminho
-[Route("api/aeronave")]
+[Route("api/aeronaves")]
 [ApiController]
 //O Controller pode trabalhar 
 //AspNet MVC ou API ou Outros
@@ -59,5 +59,6 @@ public class AeronaveController : ControllerBase
     }
 
 
+    
 
 }

@@ -1,7 +1,7 @@
 //Utilização dos namespaces
 using VoeAirlinesSenai.Contexts;
 using VoeAirlinesSenai.Entities;
-using VoeAirlinesSenai.ViewModels;
+using VoeAirlinesSenai.ViewModels.Aeronave;
 
 namespace VoeAirlinesSenai.Services;
 
@@ -27,7 +27,7 @@ public class AeronaveService
 
     {
 
-        var aeronave = new Aeronave(dados.Fabricante, dados.Modelo, dados.Codigo, dados.Celebridade);
+        var aeronave = new Aeronave(dados.Fabricante, dados.Modelo, dados.Codigo);
 
         _context.Add(aeronave);
         _context.SaveChanges();
@@ -42,10 +42,10 @@ public class AeronaveService
     }
 
     //Listar Aeronaves
-    public IEnumerable<ListarAeronaveViewModel1> ListarAeronaves()
+    public IEnumerable<ListarAeronaveViewModel> ListarAeronaves()
     {
 
-        return _context.Aeronaves.Select(a => new ListarAeronaveViewModel1(a.Id, a.Modelo, a.Codigo));
+        return _context.Aeronaves.Select(a => new ListarAeronaveViewModel(a.Id, a.Modelo, a.Codigo));
 
     }
 

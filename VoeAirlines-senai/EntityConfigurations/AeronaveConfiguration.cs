@@ -32,9 +32,7 @@ public class AeronaveConfiguration : IEntityTypeConfiguration<Aeronave>
                .HasMaxLength(10);
 
        //Propriedade Celebridade 
-        builder.Property(a => a.Celebridade)
-              .IsRequired()
-              .HasMaxLength(80);
+        
               
         //Agora é Sério ---Chegou o Relacionamento      
         /*

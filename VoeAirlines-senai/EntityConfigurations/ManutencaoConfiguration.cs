@@ -22,6 +22,7 @@ public class ManutencaoConfiguration : IEntityTypeConfiguration<Manutencao>
 
         builder.Property(m => m.Observacoes)
                .HasMaxLength(100);
+         
 
     }
 }
