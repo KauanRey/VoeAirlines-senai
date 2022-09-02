@@ -59,3 +59,7 @@ C:\Users\Aluno\desktop\Voeairlines-senai\VoeAirlines-senai\bin\Debug\net6.0\runt
 C:\Users\Aluno\desktop\Voeairlines-senai\VoeAirlines-senai\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\Aluno\desktop\Voeairlines-senai\VoeAirlines-senai\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Aluno\desktop\Voeairlines-senai\VoeAirlines-senai\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Aluno\Desktop\Voeairlines-senai\VoeAirlines-senai\bin\Debug\net6.0\libwkhtmltox.dll
+C:\Users\Aluno\Desktop\Voeairlines-senai\VoeAirlines-senai\bin\Debug\net6.0\libwkhtmltox.dylib
+C:\Users\Aluno\Desktop\Voeairlines-senai\VoeAirlines-senai\bin\Debug\net6.0\libwkhtmltox.so
+C:\Users\Aluno\Desktop\Voeairlines-senai\VoeAirlines-senai\bin\Debug\net6.0\DinkToPdf.dll
